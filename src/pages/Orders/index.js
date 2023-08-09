@@ -72,7 +72,7 @@ function Orders() {
                             mobile,
                             price_total: formatPrice + 'đ',
                             status:
-                                status === '1' ? (
+                                status === 1 ? (
                                     <span className="success">Đã thanh toán</span>
                                 ) : (
                                     <span className="error">Chưa thanh toán</span>
